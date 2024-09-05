@@ -123,7 +123,7 @@ $con->close();
                             <span class="input-group-text"><i class="fas fa-key"></i></span>
                         </div>
                         <input type="password" name="password" placeholder="New Password" id="password" required>
-                        <input type="hidden" name="email" id="email" value="<?php echo $_GET['id'] ?>" required>
+                        
                         <input type="submit" name="submit" value="Update password">
                     </div>
                 </form>
